@@ -16,11 +16,11 @@ export default function Login() {
           //   onChange={(e) => {
           //     setQuery(e.target.value);
           //   }}
-          placeholder="Enter Email Username "
+          placeholder="Enter Email or Username "
         />
         <input
           className="input"
-          type="text"
+          type="password"
           name="password"
           //   value={query}
           //   onChange={(e) => {
