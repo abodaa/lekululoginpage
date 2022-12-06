@@ -1,0 +1,67 @@
+@import "./reset";
+@import "./variables";
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Mega&display=swap');
+
+.nav-bar-container {
+  display: flex;
+  justify-content: center;
+}
+.logo {
+  width: 4rem;
+  background-color: rgba(255, 255, 255, 0.945);
+  margin: 0.5rem;
+  padding: 1rem;
+  border-radius: 10%;
+}
+.login-page-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: $bg-color;
+  max-width: 30rem;
+  height: 35rem;
+  margin: auto;
+  padding: 2rem;
+ 
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.input {
+  border: none;
+  width: 100%;
+  height: 2rem;
+  padding: 1rem;
+  font-family: "Lexend", sans-serif;
+
+  &:focus {
+    outline: none;
+  }
+}
+.input-btn {
+  border: none;
+  width: 100%;
+  height: 3rem;
+  font-size: 1.3rem;
+  background-color: $button-color;
+}
+.sign-up-link {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.forget-pswd-link{
+    text-decoration: none;
+    font-size: 0.8rem;
+    color: black;
+    font-weight: 900;
+}
+.Signup-link{
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+}
