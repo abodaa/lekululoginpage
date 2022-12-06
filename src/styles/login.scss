@@ -1,6 +1,6 @@
 @import "./reset";
 @import "./variables";
-@import url('https://fonts.googleapis.com/css2?family=Lexend+Mega&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Mega&display=swap");
 
 .nav-bar-container {
   display: flex;
@@ -22,7 +22,6 @@
   height: 35rem;
   margin: auto;
   padding: 2rem;
- 
 }
 .form-container {
   display: flex;
@@ -33,7 +32,7 @@
 }
 .input {
   border: none;
-  width: 100%;
+  width: 93%;
   height: 2rem;
   padding: 1rem;
   font-family: "Lexend", sans-serif;
@@ -47,21 +46,37 @@
   width: 100%;
   height: 3rem;
   font-size: 1.3rem;
+  font-family: "Lexend", sans-serif;
   background-color: $button-color;
+  cursor: pointer;
+  &:hover {
+    background-color: white;
+    transition: 0.4s;
+  }
 }
-.sign-up-link {
+.sign-up-link-container {
   display: flex;
   align-items: center;
   gap: 1rem;
+  
+  
 }
-.forget-pswd-link{
-    text-decoration: none;
-    font-size: 0.8rem;
-    color: black;
-    font-weight: 900;
+.forget-pswd-link {
+  text-decoration: none;
+  font-size: 0.8rem;
+  color: black;
+  font-weight: 900;
+  &:hover {
+    color: rgb(193, 165, 5);
+    transition: 0.3s;
+  }
 }
-.Signup-link{
-    text-decoration: none;
-    color: black;
-    font-weight: 900;
+.Signup-link {
+  text-decoration: none;
+  color: black;
+  font-weight: 900;
+  &:hover {
+    color: rgb(193, 165, 5);
+    transition: 0.3s;
+  }
 }

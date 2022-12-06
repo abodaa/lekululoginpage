@@ -28,13 +28,13 @@ export default function Login() {
           //   }}
           placeholder="Enter Password"
         />
-        <input className="input-btn" type="button" value="Sign In" />
+        <button className="input-btn">Login </button>
       </form>
       <a className="forget-pswd-link" href="#">
         Forgot Password?
       </a>
-      <div className="sign-up-link">
-        <p className="forget-pswd">New to Lekulu Entertainment?</p>
+      <div className="sign-up-link-container">
+        <p>New to Lekulu Entertainment?</p>
         <a className="Signup-link" href="#">
           Sign up now
         </a>
@@ -42,7 +42,10 @@ export default function Login() {
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, minus?
         Quisquam, eaque. Culpa rerum repellendus consectetur, sapiente facilis
-        dolore deserunt? <a href="#">LearnMore</a>
+        dolore deserunt?{" "}
+        <a className="forget-pswd-link" href="#">
+          LearnMore
+        </a>
       </p>
     </div>
   );
