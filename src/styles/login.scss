@@ -18,12 +18,11 @@
   flex-direction: column;
   gap: 10px;
   background-color: $bg-color;
-  max-width: 30rem;
+  max-width: 25rem;
   height: 35rem;
   margin: auto;
   padding: 2rem;
   border-radius: 15px;
-
 }
 .form-container {
   display: flex;
@@ -34,9 +33,9 @@
 }
 .input {
   border: none;
-  width: 93%;
+  width: 95%;
   height: 2rem;
-  padding: 1rem;
+  padding: 10px;
   font-family: "Lexend", sans-serif;
 
   &:focus {
@@ -60,12 +59,11 @@
   display: flex;
   align-items: center;
   gap: 1rem;
-  
-  
 }
 .forget-pswd-link {
   text-decoration: none;
   font-size: 0.8rem;
+  width: 9rem;
   color: black;
   font-weight: 900;
   &:hover {
@@ -81,4 +79,28 @@
     color: rgb(193, 165, 5);
     transition: 0.3s;
   }
+}
+.reminder{
+    font-weight: 100;
+    margin-top: -1rem;
+}
+.oat-login-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.oat {
+  display: flex;
+  align-items: center;
+  border: none;
+  gap: 10px;
+  padding: 15px;
+  cursor: pointer;
+  &:hover {
+    background-color: rgb(255, 255, 255);
+    transition: 0.3s;
+  }
+}
+.oat-icons {
+  width: 1.5rem;
 }

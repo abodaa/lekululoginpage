@@ -1,5 +1,8 @@
 import React from "react";
 import "../styles/login.scss";
+import facebook from "../images/facebook.png";
+import google from "../images/google.png";
+
 export default function Login() {
   const [username, setUsername] = React.useState({});
   return (
@@ -28,21 +31,31 @@ export default function Login() {
           //   }}
           placeholder="Enter Password"
         />
-        <button className="input-btn">Login </button>
+        <button className="input-btn">Sign In </button>
       </form>
       <a className="forget-pswd-link" href="#">
         Forgot Password?
       </a>
+      <div className="oat-login-container">
+        <button className="oat">
+          <img className="oat-icons" src={facebook} alt="" /> Continue with
+          Facebbok
+        </button>
+
+        <button className="oat">
+          <img className="oat-icons" src={google} alt="" /> Continue with Google
+        </button>
+      </div>
       <div className="sign-up-link-container">
         <p>New to Lekulu Entertainment?</p>
         <a className="Signup-link" href="#">
           Sign up now
         </a>
       </div>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, minus?
-        Quisquam, eaque. Culpa rerum repellendus consectetur, sapiente facilis
-        dolore deserunt?{" "}
+      <p className="reminder">
+        Just a reminder, You don't need to register and Sign In to watch movies.
+        The benefit of registering is to save and watch all your favorites and
+        watchlist permanently.
         <a className="forget-pswd-link" href="#">
           LearnMore
         </a>
